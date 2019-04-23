@@ -9,18 +9,18 @@ Install Docker desktop and create your Docker hub account.
 
 Login with your Docker credentials of your Docker hub account:
 
-### `$ docker login`
+#### `$ docker login`
 
 Poll both frontend and backend images:
 
-### `$ docker pull ryanchen008/profile`
+#### `$ docker pull ryanchen008/profile`
 
-### `$ docker pull ryanchen008/profileapi`
+#### `$ docker pull ryanchen008/profileapi`
 
 Run images:
 
-### `$ docker run -p <free port>:8000 ryanchen008/profileapi`
+#### `$ docker run -p <free port>:8000 ryanchen008/profileapi`
 
-### `$ docker run -p <another free port>:3000 ryanchen008/profile`
+#### `$ docker run -p <another free port>:3000 ryanchen008/profile`
 
-Open http://localhost:<frontend port> in your browser.
+Open http://localhost:< frontend port > in your browser.
